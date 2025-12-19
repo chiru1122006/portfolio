@@ -254,7 +254,7 @@ export default function Page6() {
             <img 
               alt="chirudeep Blur" 
               className="hidden lg:block absolute inset-0 rotate-3 rounded-[58px] object-cover w-full h-full grayscale blur-sm brightness-75 transition-transform pointer-events-none"
-              src="/src/images/chiru.png"
+              src="/images/chiru.png"
             />
 
             {/* Layer 2: Clear/Color Foreground (Revealed by clip-path on desktop, always visible on mobile) */}
@@ -263,7 +263,7 @@ export default function Page6() {
               id="reveal-image"
               alt="chirudeep Clear" 
               className="absolute inset-0 rotate-3 rounded-[58px] object-cover w-full h-full shadow-2xl shadow-blue-900/20 pointer-events-none"
-              src="/src/images/chiru.png"
+              src="/images/chiru.png"
               style={{
                 clipPath: 'inset(0 100% 0 0)' // Initial state
               }}
@@ -273,7 +273,7 @@ export default function Page6() {
             <img 
               alt="chirudeep" 
               className="lg:hidden absolute inset-0 rotate-3 rounded-[58px] object-cover w-full h-full shadow-2xl shadow-blue-900/20 pointer-events-none"
-              src="/src/images/chiru.png"
+              src="/images/chiru.png"
             />
             
             {/* Overlay Gradient/Effect */}
@@ -284,4 +284,5 @@ export default function Page6() {
       </div>
     </div>
   );
+
 }
