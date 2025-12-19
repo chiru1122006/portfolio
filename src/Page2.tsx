@@ -80,7 +80,7 @@ const Page2: React.FC = () => {
                       </g>
                     </svg>
                     {/* Avatar Placeholder */}
-                    <img alt="Profile" className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2 h-[100px] w-[100px] transform rounded-full object-cover" src="/src/images/chiru.png" />
+                   <img alt="Profile" className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2 h-[100px] w-[100px] transform rounded-full object-cover" src="/images/chiru.png" />
                   </div>
                 </span>
                 
@@ -427,5 +427,6 @@ const Page2: React.FC = () => {
     </div>
   );
 };
+
 
 export default Page2;
