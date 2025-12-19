@@ -151,7 +151,7 @@ const Page1: React.FC = () => {
           <div className="flex items-center gap-3 mb-12 flex-wrap justify-center animate-fade-in-up">
             <span className="text-base md:text-lg text-gray-300 font-light">Hello, I'm svcr</span>
             <div className="w-16 h-12 rounded-full overflow-hidden border border-gray-600/40 shadow-lg shadow-black/50 backdrop-blur-sm">
-              <img src="/src/images/chiru123.png" alt="svcr" className="w-full h-full object-cover" />
+              <img src="/images/chiru123.png" alt="svcr" className="w-full h-full object-cover" />
             </div>
             <span className="text-base md:text-lg text-gray-300 font-light">a Full Stack Developer</span>
           </div>
@@ -264,5 +264,6 @@ const Page1: React.FC = () => {
     </div>
   );
 };
+
 
 export default Page1;
